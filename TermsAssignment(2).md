@@ -453,13 +453,16 @@ Prototypal Inheritance is that an object can point to another object and inherit
 ```
 ### Mutable
 ```
-Muatable means the properties or object whose state can be modified after it is created. 
+Muatable means the properties or object whose state can be modified after it is created. In JavaScript, only objects and arrays are mutable
 ```
 ### Immutable
 ```
-Changing the internal state of the data, so the reference always gets reassigned to a new object.
+Immutable is a type of variable that cannot be changed.Strings and Numbers are Immutable.
 ```
-
+### React
+```
+React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. 
+```
 
 
 
