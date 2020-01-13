@@ -1,6 +1,3 @@
-code {
-  white-space : pre-wrap !important;
-}
 
 # Terms Assignment 
 
@@ -432,10 +429,36 @@ Amazon Web Services (AWS) is a secure cloud services platform, offering compute 
 ```
 Platform-as-a-Service (PaaS) model, developers essentially rent everything they need to build an application, relying on a cloud provider for development tools, infrastructure, and operating systems. 
 ```
-### 
+### Heroku
+```
+Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+```
+### Hoisting
+```
+In javascript a function can be declared later on, after it has been used first, is called Hoisting.
+```
+### Pass by Reference/Pass By Value
+```
+When a parameter is passed by reference,any operations or changes made on it are reflected on the original parameter
+When a parameter is passed by value, first its copy is made any changes applied on the values are not reflected back on the original parameters.
+```
+### Closures
 
-
-
+```
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state.
+```
+### Prototypal Inheritance
+```
+Prototypal Inheritance is that an object can point to another object and inherit all its properties
+```
+### Mutable
+```
+Muatable means the properties or object whose state can be modified after it is created. 
+```
+### Immutable
+```
+Changing the internal state of the data, so the reference always gets reassigned to a new object.
+```
 
 
 
