@@ -84,8 +84,46 @@ Props
 ```
 
 ### 10 popular commands - daily use
+```
+cd  - it is used for changing directory
+mkdir - it is used creating new directory
+touch - it is used creating new file
+nano -  it is used for inserting data in file
+mv - it is used for moving or renaming the file
+ls - list all the files present in the directory 
+ls -al - all the hidden files are displayed
+pwd - present working directory 
+kill - stop process when process stuck
+exit - terminate terminal
+```
+### 10 popular network commands
+```
+ifconfig - configure network interface parameters like ip addresss 
+w - summary of the current activity on the system
+ping -  provide a basic connectivity test between the requesting host and a destination host.
+route - display the current status of the routing table on a host
+finding host/domain name and IP address – hostname
+netstat- Network connections, routing tables, interface statistics
+nslookup - query DNS lookup name  
+telnet - communicate with other hostname
+traceroute - outing steps that packets take to get to network host
+finger- view user information
+```
 
-
+### 10 popular Git commands
+```
+$ git init- Turn an existing directory into a git repository
+$ git clone [url]- Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commit
+$ git merge [branch]- Combines the specified branch’s history into the current branch. This is usually done in pull requests, but is an important Git operation
+$ git branch -d [branch-name]- Deletes the specified branch
+$ git checkout [branch-name]- Switches to the specified branch and updates the working directory
+$ git branch [branch-name]- Creates a new branch
+$ git status- gives the status of tracked and untracked files 
+$ git push- Uploads all local branch commits to GitHub
+$ git add- to add files in staging area
+$ git pull- Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. git pull  is a combination of   git fetch  and   git merge
+$ git reset- its to return to previous status. 
+```
 
 ### Database
 
@@ -132,8 +170,65 @@ There are many types of joins Inner Join, Left Join, Right Join,
 Outer Join and cross join.
 ```
 ### CAP Theorem 
+```
+CAP theorem is a tool used to makes system designers aware of the trade-offs while designing networked shared-data systems.
 
+The theorem states that networked shared-data systems can only guarantee two of the following three properties:
+Consistency - A guarantee that every node in a distributed cluster returns the same, most recent, successful write. Consistency refers to every client having the same view of data.
 
+Availabilty - Every non-failing node returns a response for all read and write request in a resonable amount of time.
+
+Partition Tolerant - The system continues to function and upholds its consistency guarantees in spite of network partitions.
+
+So, it possible to have two at a time i.e. CP (Consistent and Partition Tolerant) or CA Consistent and Available) or AP (Available and Partition Tolerant)
+```
+
+### Normalization
+```
+Normalization is a database design technique which organizes tables in a manner that reduces redundancy and dependency of data. It divides larger tables to smaller tables and links them using relationships.
+```
+### Database Sharding
+```
+Sharding is a database architecture pattern related to horizontal partitioning — the practice of separating one table's rows into multiple different tables, known as partitions. Each partition has the same schema and columns, but also entirely different rows.
+```
+### 7 layers of OSI model
+```
+    Layer 7 - Application
+    Layer 6 - Presentation
+    Layer 5 - Session
+    Layer 4 - Transport
+    Layer 3 - Network
+    Layer 2 - Data Link
+    Layer 1 - Physical
+
+Application (Layer 7)
+
+OSI Model, Layer 7, supports application and end-user processes. Communication partners are identified, quality of service is identified, user authentication and privacy are considered, and any constraints on data syntax are identified.
+
+Presentation (Layer 6)
+
+This layer provides independence from differences in data representation (e.g., encryption) by translating from application to network format, and vice versa. The presentation layer works to transform data into the form that the application layer can accept.
+
+Session (Layer 5)
+
+This layer establishes, manages and terminates connections between applications.
+
+Transport (Layer 4)
+
+OSI Model, Layer 4, provides transparent transfer of data between end systems, or hosts, and is responsible for end-to-end error recovery and flow control. It ensures complete data transfer.
+
+Network (Layer 3)
+
+Layer 3 provides switching and routing technologies, creating logical paths, known as virtual circuits, for transmitting data from node to node.
+
+Data Link (Layer 2)
+
+At OSI Model, Layer 2, data packets are encoded and decoded into bits. It furnishes transmission protocol knowledge and management and handles errors in the physical layer, flow control and frame synchronization. The data link layer is divided into two sub layers: The Media Access Control (MAC) layer and the Logical Link Control (LLC) layer. 
+
+Physical (Layer 1)
+
+OSI Model, Layer 1 conveys the bit stream - electrical impulse, light or radio signal — through the network at the electrical and mechanical level.
+```
 #### Request Response Protocol
 ```
 It is the Http request made from the client-side to server-side. It helps in communication of devices, basically the client sends a message to server, this is known as request, then the request gets processed and the server returns the appropriate data/message known as response.
@@ -464,6 +559,31 @@ Immutable is a type of variable that cannot be changed.Strings and Numbers are I
 React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. 
 ```
 
+### Why React?
+```
+React allows developers to create large web applications which can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. It works only on user interfaces in application. This corresponds to view in the MVC template.
+```
 
+### Redux
+```
+Redux is a predictable state container for JavaScript apps. Redux makes it easy to manage the state of your application. Another way of looking at this – it helps you manage the data you display and how you respond to user actions.
+```
+
+### Why Redux?
+```
+Redux makes it easy to debug an application. By logging actions and state, it is easy to understand coding errors, network errors and other forms of bugs that might come up during production.
+```
+### State
+```
+React components has a built-in state object.
+
+The state object is where you store property values that belongs to the component.
+
+When the state object changes, the component re-renders.
+```
+### Props 
+```
+These are ussed to send data to component 
+```
 
 
