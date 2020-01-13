@@ -1,3 +1,7 @@
+code {
+  white-space : pre-wrap !important;
+}
+
 # Terms Assignment 
 
 ```
@@ -392,3 +396,48 @@ Node.js is an open-source, cross-platform, JavaScript runtime environment
 ```
 The motivation of the MongoDB language is to implement a data store that provides high performance, high availability, and automatic scaling. MongoDB is extremely simple to install and implement. MongoDB uses JSON or BSON documents to store data.
 ```
+### Progressive Web Apps (PWA)
+```
+A Progressive Web App (PWA) is a web app that uses modern web capabilities to deliver an app-like experience to users. These apps meet certain requirements (see below), are deployed to servers, accessible through URLs, and indexed by search engines.
+```
+### Server Based Authentication 
+```
+When using a session based auth system, the server creates and stores the session data in the server memory when the user logs in and then stores the session Id in a cookie on the user browser.
+```
+### Token Based Authentication
+```
+In the token based authentication, the user data is encrypted into a JWT (JSON Web Token) with a secret and then sent back to the client.
+The JWT is then stored on the client side mostly localStorage and sent as a header for every subsequent request. The server receives and validates the JWT before proceeding to send a response to the client.
+```
+### Authorization
+
+```
+Authorization means being allowed access to the system. Authorization verifies your rights to grant you access to resources only after determining your ability to access the system and up to what extent.
+```
+### Docker
+```
+Docker is a popular open-source project based on Linux containers. Docker is written in go and developed by Dotcloud (A PaaS Company). Docker is basically a container engine which uses the Linux Kernel features like namespaces and control groups to create containers on top of an operating system and automates application deployment on the container.
+
+It provides a lightweight environment to run your application code. Docker has an efficient workflow for moving your application from developers laptop, test environment to production. It is incredibly fast and it can run on the host with compatible Linux Kernel.
+```
+###  IaaS
+```
+Infrastructure as a Service , provides you the computing infrastructure, physical or (quite often) virtual machines and other resources like virtual-machine disk image library, block and file-based storage, firewalls, load balancers, IP addresses, virtual local area networks etc.
+```
+### AWS
+```
+Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow.
+```
+### PaaS
+```
+Platform-as-a-Service (PaaS) model, developers essentially rent everything they need to build an application, relying on a cloud provider for development tools, infrastructure, and operating systems. 
+```
+### 
+
+
+
+
+
+
+
+
