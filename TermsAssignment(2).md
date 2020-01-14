@@ -492,7 +492,7 @@ The motivation of the MongoDB language is to implement a data store that provide
 ```
 A Progressive Web App (PWA) is a web app that uses modern web capabilities to deliver an app-like experience to users. These apps meet certain requirements (see below), are deployed to servers, accessible through URLs, and indexed by search engines.
 ```
-### Server Based Authentication 
+### Session Based Authentication 
 ```
 When using a session based auth system, the server creates and stores the session data in the server memory when the user logs in and then stores the session Id in a cookie on the user browser.
 ```
